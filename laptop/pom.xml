@@ -14,8 +14,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-     <properties>
-                  <altDeploymentRepository>local-nexus::default::http://3.136.158.63:8081/#admin/repository/repositories:fivestar/</altDeploymentRepository>
+      <properties>
+                  <altDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altDeploymentRepository>
                   <!--altReleaseDeploymentRepository>local-nexus::default::http://nexus/repository/maven-releases/</altReleaseDeploymentRepository-->
                   <!--altSnapshotDeploymentRepository>local-nexus::default::http://nexus/repository/maven-snapshots/</altSnapshotDeploymentRepository-->
               </properties>
